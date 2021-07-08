@@ -14,7 +14,7 @@ services:
     networks:
       - ch03
   api:
-    image: 192.168.0.101:5000/example/echo:latest
+    image: registry:5000/example/echo:latest
     deploy:
       replicas: 2
       placement:

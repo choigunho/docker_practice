@@ -13,8 +13,7 @@ services:
                 constraints:
                     - node.role == manager
         ports:
-            # - 80:80 
-            - 8000:80
+            - 80:80
             - 1936:1936 # for stats page (basic auth, stats:stats)
 
 networks:
